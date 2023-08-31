@@ -1,4 +1,6 @@
 body {
+  text-align: center;
+  margin: 8px;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -24,3 +26,29 @@ img {
   justify-content: center;
   background: #eee;
 }
+.title {
+  margin-bottom: 32px;
+}
+
+.header, .food-content {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:5px;
+}
+
+.content {
+  display:flex;
+  gap: 52px;
+  justify-content: center;
+ 
+  
+}
+
+.food-content {
+  max-width: 200px;
+}
+
+
+
+
